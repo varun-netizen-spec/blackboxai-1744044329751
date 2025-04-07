@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Prediction Result</title>
+</head>
+<body>
+    <div class="max-w-md mx-auto p-6 bg-white shadow-lg rounded-lg">
+        <h3 class="text-xl mb-4">Prediction Result</h3>
+        <div class="flex items-center mb-4">
+            <span class="text-green-500 mr-2">✅</span>
+            <span>Foot-and-Mouth Disease</span>
+        </div>
+        <div class="flex items-center mb-4">
+            <span class="text-gray-600">Confidence: 92%</span>
+            <div class="w-full bg-gray-200 rounded-full h-2.5 mt-1 ml-2">
+                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 92%"></div>
+            </div>
+        </div>
+        <div class="text-sm">
+            <p class="font-semibold">Treatment:</p>
+            <ul class="list-disc pl-6">
+                <li>Administer antibiotic X</li>
+                <li>Isolate the cattle</li>
+                <li>Monitor temperature daily</li>
+            </ul>
+        </div>
+        <button class="mt-4 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
+            Save Report
+        </button>
+    </div>
+</body>
+</html>
